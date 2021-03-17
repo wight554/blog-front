@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "ignorePatterns": ["*.js"],
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "prettier"
+  ],
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}

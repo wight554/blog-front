@@ -1,0 +1,7 @@
+{
+  "extends": ["stylelint-config-sass-guidelines", "prettier"],
+  "rules": {
+    "indentation": "tab",
+    "number-leading-zero": null
+  }
+}
